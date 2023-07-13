@@ -1,30 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: serif;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     position: relative;
     overflow: hidden;
 }
-#page{
+
+#page {
     height: 100vh;
     width: 100vw;
     background-color: black;
     position: relative;
 }
-#page1{
+
+#page1 {
     height: 100vh;
     width: 100vw;
     background-color: white;
     position: relative;
 }
-#page nav{
+
+#page nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,16 +43,19 @@ html,body{
     transform: translateX(-50%);
     color: white;
 }
-#page nav button{
+
+#page nav button {
     padding: 7px 20px;
     border-radius: 50px;
     border: none;
     background-color: white;
 }
-#page nav h3{
+
+#page nav h3 {
     font-weight: 400;
 }
-#page video{
+
+#page video {
     height: 100%;
     width: 50%;
     object-fit: cover;
@@ -54,11 +63,13 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
 }
-#page-bottom h3{
+
+#page-bottom h3 {
     color: #dadada93;
     margin-bottom: 1vh;
 }
-#page-bottom{
+
+#page-bottom {
     height: 20%;
     width: 25%;
     position: absolute;
@@ -70,12 +81,14 @@ html,body{
     justify-content: center;
     flex-direction: column;
 }
-#page1 video{
+
+#page1 video {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-#page1 h1{
+
+#page1 h1 {
     font-size: 4vw;
     color: #fff;
     font-weight: 400;
@@ -85,16 +98,19 @@ html,body{
     transform: translateX(-50%);
     white-space: nowrap;
 }
-#page2{
+
+#page2 {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
+
 #page2 video {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 #page2 h1 {
     font-size: 4vw;
     color: #fff;
@@ -106,11 +122,13 @@ html,body{
     white-space: nowrap;
     text-align: center;
 }
-#page3{
+
+#page3 {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
+
 #page3 video {
     height: 100%;
     width: 100%;
@@ -128,6 +146,7 @@ html,body{
     white-space: nowrap;
     text-align: center;
 }
+
 #page4 {
     position: relative;
     height: 100vh;
@@ -150,4 +169,11 @@ html,body{
     transform: translateX(-50%);
     white-space: nowrap;
     text-align: center;
+}
+
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
 }
