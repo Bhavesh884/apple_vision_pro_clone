@@ -118,3 +118,15 @@ var t4 = gsap.timeline({
 t4.to("#page4>h1", {
   top: `-50%`,
 });
+var t5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page6`,
+    start: `top top`,
+    scrub: 1,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t5.to(".p6-in", {
+  top: `-50%`,
+});
