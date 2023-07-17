@@ -265,3 +265,53 @@ body {
     white-space: nowrap;
     text-align: center;
 }
+
+#page7 {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 2.5%;
+}
+
+#page7 .left7 {
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+
+.left7 h1 {
+    position: absolute;
+    font-size: 2.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+.right7 {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.right7 h3 {
+    font-size: 1.4vw;
+    width: 70%;
+    color: #8d8989;
+    font-weight: 700;
+}
+
+.right7 button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f56c23;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.7vw;
+    margin-top: 2.5vw;
+}
