@@ -242,19 +242,22 @@ body {
     font-size: 1.4vw;
 }
 
-#page6 {
+#page6,
+#page8 {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
 
-#page6 video {
+#page6 video,
+#page8 video {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.p6-in {
+.p6-in,
+.p8-in {
     font-size: 3vw;
     color: #fff;
     font-weight: 400;
@@ -266,7 +269,8 @@ body {
     text-align: center;
 }
 
-#page7 {
+#page7,
+#page9 {
     position: relative;
     height: 40vh;
     width: 100vw;
@@ -274,13 +278,15 @@ body {
     margin-top: 2.5%;
 }
 
-#page7 .left7 {
+#page7 .left7,
+#page9 .left9 {
     position: relative;
     height: 100%;
     width: 45%;
 }
 
-.left7 h1 {
+.left7 h1,
+.left9 h1 {
     position: absolute;
     font-size: 2.2vw;
     left: 50%;
@@ -288,7 +294,8 @@ body {
     top: 10%;
 }
 
-.right7 {
+.right7,
+.right9 {
     height: 100%;
     width: 60%;
     position: relative;
@@ -298,14 +305,16 @@ body {
     align-items: start;
 }
 
-.right7 h3 {
+.right7 h3,
+.right9 h3 {
     font-size: 1.4vw;
     width: 70%;
     color: #8d8989;
     font-weight: 700;
 }
 
-.right7 button {
+.right7 button,
+.right9 button {
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
