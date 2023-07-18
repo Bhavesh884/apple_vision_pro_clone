@@ -243,21 +243,27 @@ body {
 }
 
 #page6,
-#page8 {
+#page8,
+#page10,
+#page12 {
     position: relative;
     height: 100vh;
     width: 100vw;
 }
 
 #page6 video,
-#page8 video {
+#page8 video,
+#page10 video,
+#page12 video {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 .p6-in,
-.p8-in {
+.p8-in,
+.p10-in,
+.p12-in {
     font-size: 3vw;
     color: #fff;
     font-weight: 400;
@@ -270,7 +276,9 @@ body {
 }
 
 #page7,
-#page9 {
+#page9,
+#page11,
+#page13 {
     position: relative;
     height: 40vh;
     width: 100vw;
@@ -279,14 +287,18 @@ body {
 }
 
 #page7 .left7,
-#page9 .left9 {
+#page9 .left9,
+#page11 .left11,
+#page13 .left13 {
     position: relative;
     height: 100%;
     width: 45%;
 }
 
 .left7 h1,
-.left9 h1 {
+.left9 h1,
+.left11 h1,
+.left13 h1 {
     position: absolute;
     font-size: 2.2vw;
     left: 50%;
@@ -295,7 +307,9 @@ body {
 }
 
 .right7,
-.right9 {
+.right9,
+.right11,
+.right13 {
     height: 100%;
     width: 60%;
     position: relative;
@@ -306,7 +320,9 @@ body {
 }
 
 .right7 h3,
-.right9 h3 {
+.right9 h3,
+.right11 h3,
+.right13 h3 {
     font-size: 1.4vw;
     width: 70%;
     color: #8d8989;
@@ -314,7 +330,9 @@ body {
 }
 
 .right7 button,
-.right9 button {
+.right9 button,
+.right11 button,
+.right13 button {
     padding: 10px 20px;
     border: none;
     border-radius: 50px;

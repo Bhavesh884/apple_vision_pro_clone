@@ -142,3 +142,27 @@ var t6 = gsap.timeline({
 t6.to(".p8-in", {
   top: `-50%`,
 });
+var t7 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page10`,
+    start: `top top`,
+    scrub: 1,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t7.to(".p10-in", {
+  top: `-50%`,
+});
+var t8 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page12`,
+    start: `top top`,
+    scrub: 1,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t8.to(".p12-in", {
+  top: `-50%`,
+});
