@@ -264,9 +264,9 @@ body {
 .p8-in,
 .p10-in,
 .p12-in {
-    font-size: 3vw;
+    font-size: 2.7vw;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     position: absolute;
     bottom: 18%;
     left: 50%;
