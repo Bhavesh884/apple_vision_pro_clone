@@ -166,6 +166,18 @@ var t8 = gsap.timeline({
 t8.to(".p12-in", {
   top: `-50%`,
 });
+var t12 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page31`,
+    start: `top top`,
+    scrub: 1,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t12.to(".p31-in", {
+  top: `-50%`,
+});
 
 function canvas() {
   const canvas = document.querySelector("#page15>canvas");
@@ -599,13 +611,3 @@ t11.to("#page30>img ", {
   opacity: 1,
 });
 
-// gsap.to("#page30>img",{
-//   scrollTrigger:{
-//     trigger:`#page23>img`,
-//     start:`top bottom`,
-//     end:`bottom top`,
-//     scrub:1,
-//     scroller:`#main`
-//   },
-//   opacity:1,
-// })
