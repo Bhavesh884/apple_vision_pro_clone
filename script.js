@@ -560,3 +560,52 @@ https://www.apple.com/v/apple-vision-pro/a/images/overview/technology/displays/h
   });
 }
 canvas1();
+
+var t9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page28`,
+    start: `top top`,
+    scrub: 0.8,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t9.to("#page28>#troff ", {
+  opacity: 0,
+});
+
+var t10 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page29`,
+    start: `top top`,
+    scrub: 0.8,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t10.to("#page29>#snroff ", {
+  opacity: 0,
+});
+var t11 = gsap.timeline({
+  scrollTrigger: {
+    trigger: `#page30`,
+    start: `top top`,
+    scrub: 1,
+    scroller: `#main`,
+    pin: true,
+  },
+});
+t11.to("#page30>img ", {
+  opacity: 1,
+});
+
+// gsap.to("#page30>img",{
+//   scrollTrigger:{
+//     trigger:`#page23>img`,
+//     start:`top bottom`,
+//     end:`bottom top`,
+//     scrub:1,
+//     scroller:`#main`
+//   },
+//   opacity:1,
+// })
