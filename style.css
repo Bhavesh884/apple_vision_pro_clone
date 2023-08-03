@@ -811,6 +811,11 @@ body {
   object-fit: cover;
   opacity: 0;
 }
+#page39 {
+  position: relative;
+  bottom: 5%;
+  height: 70vh;
+}
 footer {
   position: relative;
   width: 100%;
